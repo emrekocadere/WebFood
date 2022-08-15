@@ -37,3 +37,40 @@ a{
 #main-header nav a:hover{
     color:rgb(228,163,44)
 }
+main h1{
+    text-align: center;
+    color:rgb(238,164,80);
+    font-size:48px;
+}
+#latest-products{
+    width: 80%;
+    margin:50px auto; 
+}
+#latest-products ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+    padding:0;
+}
+.food-items img{
+    height:240px;
+    width:100%;
+    object-fit: cover;
+}
+.food-items{
+    background-color:rgb(228,206,182) ;
+    border-radius: 6px;
+    overflow:hidden ;
+}
+.food-item-content{
+    padding:16px;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(228,157,44 );
+    border-radius:4px;
+    padding:8px 24px;
+}
+.btm:hover{
+    background-color: rgb(221,134,34);
+}
